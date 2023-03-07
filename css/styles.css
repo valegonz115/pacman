@@ -35,6 +35,8 @@ body {
 
 video {
     opacity: 0.2;
+    position: relative;
+    bottom: -600px;
 }
 
 @keyframes pacman {
@@ -53,7 +55,7 @@ video {
     39%         {top: 221px; left: 670px; rotate: 90deg;}
     40%         {top: 221px; rotate: 90deg;}
     41%         {rotate:0deg;}
-    42%         {top: 221px; left: 737px; rotate:0deg;}
+    42%         {top: 221px; left: 727px; rotate:0deg;}
   }
 
 .centrar {
